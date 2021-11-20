@@ -57,6 +57,10 @@ class Flight {
      */
     int getNumPassengers();
     void setNumPassengers(int numPassengers);
+    Plane getPlane();
+    void setPlane(Plane plane);
+    void addPassenger(Passenger passenger);
+    void addLuggage(Luggage luggage);
 private:
     int number;
     Date depDate;
@@ -64,6 +68,9 @@ private:
     string destination;
     string origin;
     int numPassengers;
+    Plane plane;
+    List<Luggage> luggages;
+    //List<Passenger> passengers;
 };
 
 

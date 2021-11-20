@@ -7,14 +7,15 @@
 
 
 class Plane {
-    string getPlate() return plate;
-    void setPlate(string plate) this.plate = plate;
-    string getType() return type;
-    void setType(string type) this.type = type;
-    int getcapacity() return capacity;
-    void setCapacity(int capacity) this.capacity = capacity;
-    List<Flight> getFlights() return flights;
-    void setFlights(List<Flight> flight) this.flight = flight;
+    string getPlate();
+    void setPlate(string plate);
+    string getType();
+    void setType(string type);
+    int getCapacity();
+    void setCapacity(int capacity);
+    List<Flight> getFlights();
+    void setFlights(List<Flight> flight);
+    void addFlight(Flight flight);
 private:
     string plate;
     string type;
