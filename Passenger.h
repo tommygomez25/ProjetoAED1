@@ -7,8 +7,10 @@
 
 
 class Passenger {
+    bool buyTicket(Flight flight, Luggage luggage);
+    bool buyTicket(Flight flight);
 private:
-
+    Luggage luggage;
 };
 
 
