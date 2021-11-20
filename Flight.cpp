@@ -4,7 +4,7 @@
 
 #include "Flight.h"
 
-public Flight::Flight(int number,Date depDate,int flightTime,string destiny,string origin,int numPassengers){
+Flight::Flight(int number,Date depDate,int flightTime,string destiny,string origin,int numPassengers){
     this.number = number;
     this.depDate = depDate;
     this.flightTime = flightTime;
