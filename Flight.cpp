@@ -6,21 +6,15 @@
 #include "Passenger.h"
 #include "Luggage.h"
 
-public Flight::Flight(int number,Date depDate,int flightTime,string destiny,string origin,int numPassengers){
+
+Flight::Flight(int number,Date depDate,int flightTime,string destiny,string origin,int numPassengers, Plane plane){
     this->number = number;
     this->depDate = depDate;
     this->flightTime = flightTime;
     this->destiny = destiny;
     this->origin = origin;
     this->numPassengers = numPassengers;
-
-Flight::Flight(int number,Date depDate,int flightTime,string destiny,string origin,int numPassengers){
-    this.number = number;
-    this.depDate = depDate;
-    this.flightTime = flightTime;
-    this.destiny = destiny;
-    this.origin = origin;
-    this.numPassengers = numPassengers;
+    this->plane = plane;
 
 }
 int Flight::getNumber() return number;
@@ -57,9 +51,9 @@ void Flight::addPassenger(Passenger passenger) {
     if(passenger.buyTicket(passenger, passenger.getLuggage()))
     passengers.push_back(passenger);
 }*/
-void Luggage::addLuggage(Luggage luggage){
-    luggages.push_back(luggage);
-};
+void Luggage::addLuggage(Luggage lug){
+    luggages.push_back(lug);
+}
 
 
 

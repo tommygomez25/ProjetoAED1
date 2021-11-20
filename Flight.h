@@ -1,8 +1,6 @@
 #ifndef CLIONPROJECTS_FLIGHT_H
 #define CLIONPROJECTS_FLIGHT_H
 
-using namespace std;
-
 
 class Flight {
     /**
@@ -68,8 +66,8 @@ private:
     string origin;
     int numPassengers;
     Plane plane;
-    List<Luggage> luggages;
-    //List<Passenger> passengers;
+    list<Luggage> luggages;
+    //list<Passenger> passengers;
 };
 
 

@@ -4,17 +4,13 @@
 
 #include "Passenger.h"
 #include "Flight.h"
-bool Passenger::buyTicket(Flight flight, Luggage luggage){}
-/**
- *
- */
-bool Passenger::buyTicket(Flight flight){
-    //se numPassengers do voo < capacity do aviao
-    //casos que o passageiro tem bagagem
+
+bool Passenger::buyTicket(Flight flight, Passenger passenger){
     Plane p1 = flight.getPlane();
     if (flight.getNumPassengers() < p1.getCapacity()){
         flight.setNumPassengers(flight.getNumPassengers() +1 );
-        flight.addLuggage(luggage);
+        if(passenger.hasLuggage()){
+            flight.addLuggage(passenger.getLuggage());}
         return true;
     }
     return false;
