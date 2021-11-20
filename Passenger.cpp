@@ -3,6 +3,8 @@
 //
 
 #include "Passenger.h"
-public bool Passenger::buyTicket(){
+public bool Passenger::buyTicket(Flight flight, Luggage luggage){
     //se numPassengers do voo < capacity do aviao
+    //casos que o passageiro tem bagagem
+    
 }
