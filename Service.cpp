@@ -8,7 +8,7 @@ Service::Service(int type = 0,Date date = Date(),string employee = "") {
 
 const int Service::getType() {
     return type;
-};
+}
 
 void Service::setType(int type) {
     this->type = type;

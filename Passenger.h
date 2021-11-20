@@ -3,9 +3,15 @@
 
 
 class Passenger {
-    bool buyTicket(Flight flight, Luggage luggage);
-    bool buyTicket(Flight flight);
+    Passenger(Luggage luggage){
+        this->luggage = luggage;
+    }
+    Passenger(){
+        this->luggage = null;
+    }
+    bool buyTicket(Flight flight, Passenger passenger);
     bool buyTicket(Flight flight, vector<Luggage> luggage,unsigned numPeople);
+
 private:
     Luggage luggage;
 };
