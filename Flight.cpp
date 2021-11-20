@@ -13,6 +13,15 @@ public Flight::Flight(int number,Date depDate,int flightTime,string destiny,stri
     this->destiny = destiny;
     this->origin = origin;
     this->numPassengers = numPassengers;
+
+Flight::Flight(int number,Date depDate,int flightTime,string destiny,string origin,int numPassengers){
+    this.number = number;
+    this.depDate = depDate;
+    this.flightTime = flightTime;
+    this.destiny = destiny;
+    this.origin = origin;
+    this.numPassengers = numPassengers;
+
 }
 int Flight::getNumber() return number;
 

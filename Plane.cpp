@@ -1,7 +1,3 @@
-//
-// Created by maysa on 18/11/2021.
-//
-
 #include "Plane.h"
 
 string Plane::getPlate() return plate;
