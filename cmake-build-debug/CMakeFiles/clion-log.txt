@@ -1,5 +1,5 @@
-"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\maysa\CLionProjects\projetoAED
+"C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\jffma\OneDrive\Desktop\ProjAED
 Doxygen build started
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/maysa/CLionProjects/projetoAED/cmake-build-debug
+-- Build files have been written to: C:/Users/jffma/OneDrive/Desktop/ProjAED/cmake-build-debug
