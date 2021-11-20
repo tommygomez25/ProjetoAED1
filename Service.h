@@ -1,7 +1,3 @@
-//
-// Created by maysa on 18/11/2021.
-//
-
 #ifndef CLIONPROJECTS_SERVICE_H
 #define CLIONPROJECTS_SERVICE_H
 

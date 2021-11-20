@@ -1,7 +1,3 @@
-//
-// Created by maysa on 19/11/2021.
-//
-
 #include "Date.h"
 Date::Date(int day, int month, int year, int hours, int minutes) {
     this->day = day;

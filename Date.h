@@ -1,7 +1,3 @@
-//
-// Created by maysa on 19/11/2021.
-//
-
 #ifndef UNTITLED_DATE_H
 #define UNTITLED_DATE_H
 
