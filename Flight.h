@@ -1,9 +1,7 @@
-//
-// Created by maysa on 18/11/2021.
-//
-
 #ifndef CLIONPROJECTS_FLIGHT_H
 #define CLIONPROJECTS_FLIGHT_H
+
+using namespace std;
 
 
 class Flight {
@@ -57,6 +55,8 @@ class Flight {
      */
     int getNumPassengers();
     void setNumPassengers(int numPassengers);
+
+
 private:
     int number;
     Date depDate;

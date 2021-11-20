@@ -7,6 +7,8 @@
 
 
 class Luggage {
+private:
+    int weight;
 
 };
 

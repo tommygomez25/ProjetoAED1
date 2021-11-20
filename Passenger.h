@@ -9,6 +9,7 @@
 class Passenger {
     bool buyTicket(Flight flight, Luggage luggage);
     bool buyTicket(Flight flight);
+    bool buyTicket(Flight flight, vector<Luggage> luggage,unsigned numPeople);
 private:
     Luggage luggage;
 };

@@ -3,6 +3,9 @@
 //
 
 #include "Passenger.h"
-public bool Passenger::buyTicket(){
+/**
+ *
+ */
+bool Passenger::buyTicket(Flight flight){
     //se numPassengers do voo < capacity do aviao
 }
