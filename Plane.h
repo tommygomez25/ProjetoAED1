@@ -3,25 +3,44 @@
 #include <queue>
 #include <vector>
 #include <list>
+#include <string>
 
 using namespace std;
 
 class Plane {
-    string getPlate() return plate;
-    void setPlate(string plate) this.plate = plate;
-    string getType() return type;
-    void setType(string type) this.type = type;
-    int getCapacity() return capacity;
-    void setCapacity(int capacity) this.capacity = capacity;
-    List<Flight> getFlights() return flights;
-    void setFlights(List<Flight> flight) this.flight = flight;
-    void addFlight(Flight flight) this.flights.
-    queue<Services> getPlaneServices() return planetServices;
+    /**
+     *
+     * @param plate
+     * @param type
+     * @param capacity
+     * @param flights
+     * @param planeServices
+     * @param pastServices
+     */
+    Plane(string plate,string type,int capacity,list<Flight> flights, queue<Service> planeServices, vector<Service> pastServices);
+    /**
+     *
+     * @return
+     */
+    const string getPlate();
+    void setPlate(const string &plate);
+    const string getType();
+    void setType(const string &type);
+    const int getCapacity();
+    void setCapacity(const int &capacity);
+    const list<Flight> getFlights();
+    void setFlights(const list<Flight> &flight);
+    void addFlight(const Flight &flight);
+    const queue<Services> getPlaneServices();
+    const queue<Services> getPlaneServices();
+    void setServices(const queue<Services> &services)
+    void addService(const Service &service);
+    void addPastService(const Service &service);
 private:
     string plate;
     string type;
     int capacity;
-    List<Flight> flights;
+    list<Flight> flights;
     queue<Service> planeServices;
     vector<Service> pastServices;
 };

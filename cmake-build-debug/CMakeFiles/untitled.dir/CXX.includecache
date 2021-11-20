@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/MIEIC-LEIC/2_ano/AED/PROJETO_AED/Luggage.cpp
+Luggage.h
+D:/MIEIC-LEIC/2_ano/AED/PROJETO_AED/Luggage.h
+
+D:/MIEIC-LEIC/2_ano/AED/PROJETO_AED/Luggage.h
+
+D:/MIEIC-LEIC/2_ano/AED/PROJETO_AED/main.cpp
+
