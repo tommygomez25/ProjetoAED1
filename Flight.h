@@ -20,6 +20,12 @@ class Flight {
     Flight(int number,Date depDate,int flightTime,string destination,string origin,int numPassengers);
 
     /**
+     * copy constructor
+     * @param flight original object
+     */
+    Flight(Flight & flight);
+
+    /**
      * gets number
      * @return flight number
      */
