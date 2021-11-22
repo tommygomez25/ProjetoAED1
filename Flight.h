@@ -100,7 +100,7 @@ private:
     int numPassengers;
     Plane plane;
     list<Luggage> luggages;
-    //list<Passenger> passengers;
+    vector<Passenger> passengers;
 };
 
 

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/maysa/CLionProjects/projetoAED/Bag.cpp
+Bag.h
+C:/Users/maysa/CLionProjects/projetoAED/Bag.h
+
+C:/Users/maysa/CLionProjects/projetoAED/Bag.h
+
+C:/Users/maysa/CLionProjects/projetoAED/main.cpp
+
