@@ -1,6 +1,6 @@
 #include "Flight.h"
 #include "Passenger.h"
-#include "Luggage.h"
+#include "Bag.h"
 
 
 Flight::Flight(int number,Date depDate,int flightTime,string destiny,string origin,int numPassengers, Plane plane){
@@ -40,13 +40,13 @@ void Flight::setNumPassengers(int numPassengers) this->numPassengers = numPassen
 Plane Flight::getPlane() return plane;
 
 void Flight::setPlane(Plane plane) this->plane = plane;
-/*
+
 void Flight::addPassenger(Passenger passenger) {
     if(passenger.buyTicket(passenger))
-        sdoinfnodfs;
+
     if(passenger.buyTicket(passenger, passenger.getLuggage()))
-    passengers.push_back(passenger);
-}*/
+        passengers.push_back(passenger);
+}
 void Luggage::addLuggage(Luggage lug){
     luggages.push_back(lug);
 }

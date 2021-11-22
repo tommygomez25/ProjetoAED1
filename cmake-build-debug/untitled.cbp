@@ -90,10 +90,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/MIEIC-LEIC/2_ano/AED/projetoAED/Luggage.cpp">
+		<Unit filename="D:/MIEIC-LEIC/2_ano/AED/projetoAED/Bag.cpp">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="D:/MIEIC-LEIC/2_ano/AED/projetoAED/Luggage.h">
+		<Unit filename="D:/MIEIC-LEIC/2_ano/AED/projetoAED/Bag.h">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="D:/MIEIC-LEIC/2_ano/AED/projetoAED/main.cpp">

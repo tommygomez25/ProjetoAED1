@@ -1,13 +1,10 @@
 #include "Passenger.h"
 #include "Flight.h"
 
-bool Passenger::buyTicket(Flight flight, Passenger passenger){
-    Plane p1 = flight.getPlane();
-    if (flight.getNumPassengers() < p1.getCapacity()){
-        flight.setNumPassengers(flight.getNumPassengers() +1 );
-        if(passenger.hasLuggage()){
-            flight.addLuggage(passenger.getLuggage());}
-        return true;
-    }
-    return false;
+Passenger::Passenger(string firstName, string lastName, Bag bag, Seat seat) {
+    this->firstName=firstName;
+    this->lastName = lastName;
+    this->bag = bag;
+    this->seat= seat;
 }
+

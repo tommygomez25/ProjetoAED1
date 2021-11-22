@@ -3,7 +3,7 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(untitled main.cpp Luggage.cpp Luggage.h)
+add_executable(untitled main.cpp Bag.cpp Bag.h)
 
 # Doxygen Build
 find_package(Doxygen)

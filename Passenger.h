@@ -4,19 +4,21 @@
 
 class Passenger {
     /**
-     * Class constructor when it is mentioned the luggage
-     * @param Luggage luggage
+     * Class constructor with parameters
+     * @param Bag Bag
      */
-    Passenger(Luggage luggage){
-        this->luggage = luggage;
-    }
+    Passenger(string firstName, string lastName, Bag bag, Seat seat);
 
     /**
-     * Class constrcutor with no luggage mentioned
+     * Class constrcutor with no parameters
      */
-    Passenger(){
-        this->luggage = null;
-    }
+    Passenger();
+
+    /**
+     * Copy constructor
+     * @param passenger original object
+     */
+    Passenger(Passenger & passenger);
 
     /**
      * Function that determines if a passenger can buy a ticket
@@ -29,14 +31,21 @@ class Passenger {
     /**
      * Function that determines if a passaenger can buy more than one ticket for the same flight
      * @param flight
-     * @param luggage
+     * @param Bag
      * @param numPeople
      * @return if the ticket was bought
      */
-    bool buyTicket(Flight flight, vector<Luggage> luggage,unsigned numPeople);
-
+    bool buyTicket(Flight flight, vector<Bag> Bag,unsigned numPeople);
+    /**
+     *
+     */
+     
+    bool hasBag();
 private:
-    Luggage luggage;
+    string firstName;
+    string lastName;
+    Bag bag;
+    Seat seat;
 };
 
 

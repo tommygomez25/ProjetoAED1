@@ -141,29 +141,29 @@ Doxygen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Doxygen.dir\build.make CMakeFiles/Doxygen.dir/build
 .PHONY : Doxygen/fast
 
-Luggage.obj: Luggage.cpp.obj
-.PHONY : Luggage.obj
+Bag.obj: Bag.cpp.obj
+.PHONY : Bag.obj
 
 # target to build an object file
-Luggage.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Luggage.cpp.obj
-.PHONY : Luggage.cpp.obj
+Bag.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Bag.cpp.obj
+.PHONY : Bag.cpp.obj
 
-Luggage.i: Luggage.cpp.i
-.PHONY : Luggage.i
+Bag.i: Bag.cpp.i
+.PHONY : Bag.i
 
 # target to preprocess a source file
-Luggage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Luggage.cpp.i
-.PHONY : Luggage.cpp.i
+Bag.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Bag.cpp.i
+.PHONY : Bag.cpp.i
 
-Luggage.s: Luggage.cpp.s
-.PHONY : Luggage.s
+Bag.s: Bag.cpp.s
+.PHONY : Bag.s
 
 # target to generate assembly for a file
-Luggage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Luggage.cpp.s
-.PHONY : Luggage.cpp.s
+Bag.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Bag.cpp.s
+.PHONY : Bag.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
@@ -199,9 +199,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Doxygen
 	@echo ... untitled
-	@echo ... Luggage.obj
-	@echo ... Luggage.i
-	@echo ... Luggage.s
+	@echo ... Bag.obj
+	@echo ... Bag.i
+	@echo ... Bag.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
