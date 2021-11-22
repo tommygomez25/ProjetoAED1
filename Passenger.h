@@ -18,7 +18,55 @@ class Passenger {
      * Copy constructor
      * @param passenger original object
      */
-    Passenger(Passenger & passenger);
+    Passenger(const Passenger & passenger);
+
+    /**
+     * first name getter
+     * @return first name
+     */
+    const string getFirstName() const;
+
+    /**
+     * last name getter
+     * @return last name
+     */
+    const string getLastName() const;
+
+    /**
+     * bag getter
+     * @return bag
+     */
+    const vector<Bag> getBag() const;
+
+    /**
+     * seat getter
+     * @return seat
+     */
+    const Seat getSeat() const;
+
+    /**
+     * sets the passenger first name
+     * @param firstName
+     */
+    void setFirstName(string firstName);
+
+    /**
+     * sets the passenger last name
+     * @param lastName
+     */
+    void setLastName(string lastName);
+
+    /**
+     * sets the bags of the passenger
+     */
+    void setBag(vector<Bag>);
+
+    /**
+     * sets the passenger seat
+     * @param row
+     * @param seat
+     */
+    void setSeat(char row, int seat);
 
     /**
      * Function that determines if a passenger can buy a ticket
@@ -36,15 +84,12 @@ class Passenger {
      * @return if the ticket was bought
      */
     bool buyTicket(Flight flight, vector<Bag> Bag,unsigned numPeople);
-    /**
-     *
-     */
-     
+
     bool hasBag();
 private:
     string firstName;
     string lastName;
-    Bag bag;
+    vector<Bag> bag;
     Seat seat;
 };
 
