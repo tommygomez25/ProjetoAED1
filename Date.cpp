@@ -1,14 +1,10 @@
-//
-// Created by maysa on 19/11/2021.
-//
-
 #include "Date.h"
 Date::Date(int day, int month, int year, int hours, int minutes) {
-    this.day = day;
-    this.month = month;
-    this.year = year;
-    this.hours = hours;
-    this.minutes = minutes;
+    this->day = day;
+    this->month = month;
+    this->year = year;
+    this->hours = hours;
+    this->minutes = minutes;
 }
 
 Date::Date(const Date &date){

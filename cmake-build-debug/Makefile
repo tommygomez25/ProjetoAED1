@@ -141,6 +141,30 @@ Doxygen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Doxygen.dir\build.make CMakeFiles/Doxygen.dir/build
 .PHONY : Doxygen/fast
 
+Luggage.obj: Luggage.cpp.obj
+.PHONY : Luggage.obj
+
+# target to build an object file
+Luggage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Luggage.cpp.obj
+.PHONY : Luggage.cpp.obj
+
+Luggage.i: Luggage.cpp.i
+.PHONY : Luggage.i
+
+# target to preprocess a source file
+Luggage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Luggage.cpp.i
+.PHONY : Luggage.cpp.i
+
+Luggage.s: Luggage.cpp.s
+.PHONY : Luggage.s
+
+# target to generate assembly for a file
+Luggage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/Luggage.cpp.s
+.PHONY : Luggage.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -175,6 +199,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... Doxygen
 	@echo ... untitled
+	@echo ... Luggage.obj
+	@echo ... Luggage.i
+	@echo ... Luggage.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

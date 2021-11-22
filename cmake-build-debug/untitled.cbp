@@ -90,6 +90,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/maysa/CLionProjects/projetoAED/Luggage.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="C:/Users/maysa/CLionProjects/projetoAED/Luggage.h">
+			<Option target="untitled"/>
+		</Unit>
 		<Unit filename="C:/Users/maysa/CLionProjects/projetoAED/main.cpp">
 			<Option target="untitled"/>
 		</Unit>
